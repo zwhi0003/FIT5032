@@ -6,4 +6,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Models\HellowWorld\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\HellowWorld\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Views\Home\About">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
 </Project>
