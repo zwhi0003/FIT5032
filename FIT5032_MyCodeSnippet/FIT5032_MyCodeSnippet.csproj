@@ -8,9 +8,11 @@
 
   <ItemGroup>
     <None Remove="Models\HellowWorld\" />
+    <None Remove="Models\Exercise\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\HellowWorld\" />
+    <Folder Include="Models\Exercise\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Views\Home\About">
